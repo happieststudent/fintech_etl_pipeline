@@ -30,5 +30,4 @@ if __name__ == "__main__":
     print("\n--- Sharpe Ratios ---")
     print(sharpe.sort_values(ascending=False))
 
-    python src/metrics.py
-    
+  
