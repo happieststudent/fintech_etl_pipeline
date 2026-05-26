@@ -1,0 +1,17 @@
+# 1. Navigate to your project folder
+cd C:\Users\ASUS\Desktop\fintech_pipeline
+
+# 2. Initialize Git
+git init
+
+# 3. Create the Virtual Environment
+python -m venv venv
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+
+# 4. Activate the Virtual Environment (Windows)
+.\venv\Scripts\activate
+
+# 5. Install the required libraries
+pip install yfinance pandas numpy matplotlib schedule
