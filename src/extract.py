@@ -13,7 +13,3 @@ def get_stock_data():
 
 if __name__ == "__main__":
     get_stock_data()
-    git config --global user.email "maikhelcn70@gmail.com"
-git config --global user.name "Maikhel"
-
-git commit -m "Phase 1: Added basic yfinance data extraction"
